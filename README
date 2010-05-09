@@ -1,0 +1,1 @@
+Run "android update -p ." should get you a working build environment with ant.

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TableRow>
+			<TextView
+				android:text="@string/name"
+				android:gravity="right|center_vertical"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingRight="10dip" />
+			<EditText
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:editable="true"
+				android:hint="@string/hint_name"
+				android:id="@+id/name"
+				android:singleLine="true"
+				android:layout_weight="1" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:text="@string/latitude"
+				android:gravity="right|center_vertical"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingRight="10dip" />
+			<EditText
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:editable="true"
+				android:hint="@string/hint_latitude"
+				android:id="@+id/latitude"
+				android:singleLine="true"
+				android:layout_weight="1"
+				android:numeric="signed|decimal" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:text="@string/longitude"
+				android:gravity="right|center_vertical"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingRight="10dip" />
+			<EditText
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:editable="true"
+				android:hint="@string/hint_longitude"
+				android:id="@+id/longitude"
+				android:singleLine="true"
+				android:layout_weight="1"
+				android:numeric="signed|decimal" />
+		</TableRow>
+	</TableLayout>
+	<View
+		android:layout_width="fill_parent"
+		android:background="@android:drawable/divider_horizontal_bright"
+		android:layout_marginBottom="10dip"
+		android:layout_marginTop="10dip"
+		android:layout_height="4dip" />
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TableRow>
+			<TextView
+				android:text="@string/source"
+				android:gravity="right|center_vertical"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingRight="10dip" />
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/current_source"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:text="@string/latitude"
+				android:gravity="right|center_vertical"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingRight="10dip" />
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/current_latitude"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:text="@string/longitude"
+				android:gravity="right|center_vertical"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingRight="10dip" />
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/current_longitude"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:text="@string/accuracy"
+				android:gravity="right|center_vertical"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingRight="10dip" />
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/current_accuracy"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceSmall" />
+		</TableRow>
+	</TableLayout>
+	<View
+		android:layout_width="fill_parent"
+		android:background="@android:drawable/divider_horizontal_bright"
+		android:layout_marginBottom="10dip"
+		android:layout_marginTop="10dip"
+		android:layout_height="4dip" />
+	<Button
+		android:id="@+id/set_location"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/set_location"/>
+</LinearLayout>

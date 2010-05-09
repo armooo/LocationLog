@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Location Log</string>
+    <string name="name">Name:</string>
+    <string name="hint_name">Home</string>
+    <string name="latitude">Latitude:</string>
+    <string name="hint_latitude">42.252786</string>
+    <string name="longitude">Longitude:</string>
+    <string name="hint_longitude">-71.004553</string>
+    <string name="location_add">Add</string>
+    <string name="location_edit">Edit</string>
+    <string name="location_delete">Delete</string>
+    <string name="location_radar">Radar</string>
+    <string name="location_map">Map</string>
+    <string name="gps">GPS</string>
+    <string name="cell">Cell</string>
+    <string name="unknown">Unknown</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="source">Source:</string>
+    <string name="accuracy">Accuracy:</string>
+    <string name="set_location">Set Location</string>
+    <string name="location_saved">Location Saved</string>
+    <string name="empty_msg">Your locations are empty.</string>
+    <string name="no_provider">Please enable a location provider.</string>
+</resources>
