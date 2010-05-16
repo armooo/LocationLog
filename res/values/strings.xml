@@ -18,8 +18,9 @@
     <string name="unavailable">Unavailable</string>
     <string name="source">Source:</string>
     <string name="accuracy">Accuracy:</string>
-    <string name="set_location">Set Location</string>
+    <string name="set_location">Use the current coordinates for this location.</string>
     <string name="location_saved">Location Saved</string>
     <string name="empty_msg">Your locations are empty.</string>
     <string name="no_provider">Please enable a location provider.</string>
+
 </resources>
