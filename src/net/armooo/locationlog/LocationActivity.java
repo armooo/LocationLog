@@ -64,6 +64,13 @@ public class LocationActivity extends Activity implements LocationListener{
 			}
 		});
 		
+		Button closeButton = (Button) findViewById(R.id.close_location_window);
+		closeButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
 
 		if (location_id != -1) {
 			Cursor c = db.getLocation(location_id);

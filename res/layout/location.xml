@@ -125,7 +125,12 @@
 		android:layout_height="4dip" />
 	<Button
 		android:id="@+id/set_location"
-		android:layout_width="wrap_content"
+		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:text="@string/set_location"/>
+	
+ 	<Button android:id="@+id/close_location_window"
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:text="@string/close" />
 </LinearLayout>

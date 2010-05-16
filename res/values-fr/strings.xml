@@ -23,4 +23,5 @@
     <string name="empty_msg">Vous n\'avez pas encore saisi des endroits.</string>
     <string name="no_provider">Pas d\'info disponible sur cet endroit.</string>
 
+<string name="close">Fermer</string>
 </resources>
