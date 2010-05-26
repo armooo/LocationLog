@@ -176,7 +176,7 @@ public class LocationListActivity extends ListActivity {
 
 	private void startMap(float latitude, float longitude, String name){
         Formatter f = new Formatter(Locale.US);
-        f.format("geo:0,0?q=%1$.5f,%2$.5f (%3$s)", latitude, longitude, name);
+        f.format("geo:0,0?q=%1$.5f,%2$.5f(%3$s)", latitude, longitude, name);
 		Uri uri = Uri.parse(f.toString());
 		Intent i = new Intent(Intent.ACTION_VIEW, uri);
 		startActivity(i);
