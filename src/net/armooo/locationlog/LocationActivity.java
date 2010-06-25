@@ -59,6 +59,9 @@ public class LocationActivity extends Activity implements LocationListener{
 			@Override
 			public void onClick(View arg0) {
 				Location l = best_location_proxy.getLastKnownLocation();
+                if (l == null) {
+                    return;
+                }
 				latitude.setText(Double.toString(l.getLatitude()));
 				longitude.setText(Double.toString(l.getLongitude()));
 			}
